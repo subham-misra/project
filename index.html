@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eduraca</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+</head>
+
+<body>
+    <section id="header">
+        <div class="container">
+            <div class="logo">
+                <img src="C:\Users\Subham\Desktop\Desktop Files\web dev1\images\logo.png" alt="logo">
+            </div>
+
+            <div class="right">
+                <h1>The purpose is to teach,<br>bring learning to people</h1>
+                <span class="square"></span>
+                <p>The world should learn how to give command to the computer.<br>every one should learn coding to
+                    explore the world.<br>we are providing many excellent courses at a very low cost with<bold>
+                        gareented certificate</bold> for enrolling in the tech companies</p>
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div>
+                <button class="btn">READ MORE</button>
+            </div>
+
+        </div>
+    </section>
+    <nav id="sidenav">
+        <ul>
+            <li><a href="header"></a>HOME</li>
+            
+            <li><a href="mid"></a>FEATURES</li>
+            <li><a href="mid1"></a>COURSES</li>
+            <li><a href="mid2"></a>SIGN UP/LOGIN</li>
+            <li><a href="end"></a>fff</li>
+            <li><a href="footer"></a>CONTACT</li>
+        </ul>
+    </nav>
+    <img src="images/menu.png" alt="menu" id="menubtn">
+    <script>
+        var menubtn = document.getElementById("menubtn");
+        var sidenav = document.getElementById("sidenav");
+
+        sidenav.style.right = "-250px";
+        menubtn.onclick = function () {
+            if (sidenav.style.right == "-250px") {
+                sidenav.style.right = "0";
+
+            } else {
+                sidenav.style.right = "-250px";
+            }
+        }
+            
+	            var scroll = new SmoothScroll('a[href*="#"]',{
+                    speed:1000,speedAsDuration:true
+                });
+            
+    </script>
+
+    <section id="mid">
+        <div class="left-col">
+            <h1>ABOUT US</h1>
+            <span class="square"></span>
+            <p>we provide you best facalty all over the world.<br> institution establised in 2001.we have also grave
+                best rating award.<br> directors also teaches to the students.</p>
+            <div class="line">
+                <span class="line-1"></span><br>
+                <span class="line-2"></span><br>
+                <span class="line-3"></span>
+            </div>
+            <p class="lec">
+                <bold>Learning is not attained by chance ,<br>it must be sought for with order and attended to with
+                    diligence.<br>-Abigail Adamas</bold>
+            </p>
+        </div>
+
+    </section>
+    <section id="mid1">
+        <div class="box-1">
+            <img src="images/pic-1.png" alt="bulb">
+            <h2>Learn Anything</h2>
+
+        </div>
+        <div class="box-2">
+            <img src="images/pic-2.png" alt="brain">
+            <h2>Expert Teacher</h2>
+        </div>
+        <div class="box-3">
+            <img src="images/pic-3.png" alt="rocket">
+            <h2>Unlimited Access</h2>
+        </div>
+
+    </section>
+    <button class="btn-1">Start Free Trial</button>
+    <section id="mid2">
+        <div class="col-right">
+            <h1>Browser Our Top <br>courses</h1>
+            <span class="square"></span>
+            <p>we provide best courses all around the world with low fee.<br>this courses will provide you a better
+                future.</p>
+            <button class="btn-1">View all courses</button>
+        </div>
+        <div class="col-left">
+            <img src="images/course.png" alt="course" width="60%" height="75%">
+        </div>
+    </section>
+    <section id="mid3">
+        <div class="text">
+            <h1>Limitless learning<br>Limitless possibility</h1>
+            <p>we provide you limitless courses with limitless access.<br>please join our courses</p>
+            <button class="btn-1">Start My Free Month</button>
+        </div>
+        <div class="right-img">
+            <img src="images/offer.png" alt="contact" width="100%" height="100%">
+        </div>
+    </section>
+    <section id="end">
+
+        <div class="text1">
+            <h1>Sign up to join our<br>learning community</h1>
+            <input type="text" name="user name" placeholder="User Name"><br>
+            <input type="text" name="user email" placeholder="User Email"><br>
+            <input type="password" name="user password" placeholder="********"><br>
+            <button class="btn-1">Sign up</button>
+            <button class="btn-1">Start Free Trial</button>
+        </div>
+        <div class="right-img">
+            <img src="images/contact.png" alt="contact" width="70%" height="80%">
+        </div>
+    </section>
+    <section id="footer">
+        <div class="footer">
+            <hr>
+
+        </div>
+        <div class="footer-row">
+            <div class="footer-left-col">
+                <div class="footer-links">
+                    <div class="link-title">
+                        <h4>Product</h4>
+                        <small>Our Plan</small><br>
+                        <small>From Trial</small>
+                    </div>
+                    <div class="link-title">
+                        <h4>About Us</h4>
+                        <small>Request Demo</small><br>
+                        <small>FAQs</small>
+                    </div>
+                    <div class="link-title">
+                        <h4>Support</h4>
+                        <small>Features</small><br>
+                        <small>Contact Us</small>
+                    </div>
+                    <div class="link-title">
+                        <h4>Explore</h4>
+                        <small>Find a request</small><br>
+                        <small>Corporate Folder</small>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-right-col">
+                <div class="info">
+                    <h4>subhammisra2001@gmail.com</h4>
+                    <h4>suppport123@gmail.com</h4>
+                    <h5>Copyright-2020</h5>
+                </div>
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="logo">
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="social-icon">
+        <img src="images/facebook.png" alt="">
+        <img src="images/instagram.png" alt="">
+        <img src="images/linkedin.png" alt="">
+        <img src="images/twitter.png" alt="">
+    </div>
+</body>
+
+</html>
